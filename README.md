@@ -1,11 +1,5 @@
 
-<p align="center">
-  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/hca_JS.png">
-</p>
 
-<p align="center">
-  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/hca_cosine.png">
-</p>
 
 # Exploratory-Text-Analytics-Subreddits
 Implementation of various NLP techniques to compare and evaluate a set of 20 subreddits
@@ -86,7 +80,13 @@ Several interesting word groups emerge from looking at the category ‘hobby,’
  
 To calculate similarity, the document term matrix at the subreddit level was normalized and Cosine Similarity and Jensen Shannon Divergence were calculated. The associated dendrograms are presented below :
 
---- IICTUREs DENDOGRAMS ---
+<p align="center">
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/hca_JS.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/hca_cosine.png">
+</p>
 
 Interestingly, both distance measures cluster subreddits similarly to the categorizations chosen by the researchers. Jensen Shannon produces the same results, while Cosine Similarity calculates  ‘Norway’ (‘geo’ category)  closest to ‘flyfishing’ and ‘camping’ (‘hobby’ category) (though ‘flyfishing’ and ‘camping’ are more similar to each other). Additionally, Cosine Similarity calculates ‘france’ (‘geo’ category) closest to ‘rugbyunion’ and ‘soccer’ (‘sports’ category) (again, ‘rugbyunion’ and ‘soccer’ are more similar to each other). This categorization may be partially due to the popularity of outdoor activities in Norway and the choice of including primarily European sports (rugby and soccer) over American sports in the dataset. Notably, the height of the dendrograms suggests that the individual subreddits are fairly unique. 
 
