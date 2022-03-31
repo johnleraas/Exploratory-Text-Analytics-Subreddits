@@ -1,20 +1,3 @@
-Neg_Emotion_Subreddit.png
-
-
-<p align="center">
-  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/hca_JS.png">
-</p>
-
-<p align="center">
-  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/test2.PNG">
-</p>
-
-<p align="center">
-  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/test2.PNG">
-</p>
-
-https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Heatmap_JSDivergence_Subreddit.PNG
-
 
 # Exploratory-Text-Analytics-Subreddits
 Implementation of various NLP techniques to compare and evaluate a set of 20 subreddits
