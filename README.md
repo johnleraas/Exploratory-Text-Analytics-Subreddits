@@ -16,7 +16,7 @@ Implementation of various NLP techniques to compare and evaluate a set of 20 sub
 # Principal Component Analysis (PCA)
 
 <p align="center">
-  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Scree_Plot.png">
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/Scree_Plot.png">
 </p>
 
 Given the computational requirements to apply TF-IDF to each post, PCA was conducted with the subreddit OHCO level selected for the bag of words. The subreddit document context matrix was normalized for length, but not variance in order to avoid exaggerating the importance of rare words.
@@ -24,8 +24,8 @@ Given the computational requirements to apply TF-IDF to each post, PCA was condu
 The resulting Scree plot indicates that of the 20 principal components, 19 explain fairly similar portions of the variance. This makes some intuitive sense, as there are 20 unique subreddits in the dataset. 
 
 <p align="center">
-  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/PC0_PC1.png"> 
-  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/PC6_PC7.png">
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/PC0_PC1.png"> 
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/PC6_PC7.png">
 </p>
 
 The importance of each principal component was also highlighted by plotting different principal components on different two-dimensional axes. For example, as seen below, the first or second principal components do not describe the data meaningfully better than the sixth or seventh components.
@@ -36,6 +36,13 @@ Principal Component Analysis indicates that most of the subreddits possess chara
 
 Topic modeling was performed by extracting and aggregating the nouns from each post, applying a CountVectorizer from sklearn, and then applying sklearn’s LatentDirichletAllocation to decompose the matrix into a document-topic matrix and a topic-term matrix. Modeling with different numbers of topics were explored, but ‘five’ was eventually chosen as a fairly interpretable selection.
 
+<p align="center">
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/Topics_by_Category.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/Topics_by_Subreddit.png">
+</p>
 
 As observed above:
 * Topic 1 is largely associated with video games
