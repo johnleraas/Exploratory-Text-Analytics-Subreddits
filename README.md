@@ -15,6 +15,7 @@ Implementation of various NLP techniques to compare and evaluate a set of 20 sub
 # Principal Component Analysis (PCA)
 
 ---PICTURE---
+![alt text](https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/ScreePlot.png)
 
 Given the computational requirements to apply TF-IDF to each post, PCA was conducted with the subreddit OHCO level selected for the bag of words. The subreddit document context matrix was normalized for length, but not variance in order to avoid exaggerating the importance of rare words.
 
