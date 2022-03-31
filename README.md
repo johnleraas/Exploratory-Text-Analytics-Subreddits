@@ -1,3 +1,8 @@
+Neg_Emotion_Subreddit.png
+<p align="center">
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Heatmap_CosineSimilarity_Subreddit.PNG">
+</p>
+
 # Exploratory-Text-Analytics-Subreddits
 Implementation of various NLP techniques to compare and evaluate a set of 20 subreddits
 
