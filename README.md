@@ -1,4 +1,12 @@
 
+<p align="center">
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/hca_JS.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/hca_cosine.png">
+</p>
+
 # Exploratory-Text-Analytics-Subreddits
 Implementation of various NLP techniques to compare and evaluate a set of 20 subreddits
 
