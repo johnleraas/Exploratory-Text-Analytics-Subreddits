@@ -84,8 +84,6 @@ While a word embedding matrix was calculated on the full corpus, more interestin
   <img height=50% width=50% src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/tSNE_hobby.png">
 </p>
 
---- PICTURE tSNE_category_hobby.png ---
-
 Several interesting word groups emerge from looking at the category ‘hobby,’ which includes the ‘camping’ and ‘flyfishing’ subreddits. Around (-5, 1) we find a group of words including ‘suggestions’, ‘advice’, ‘tips’, ‘recommendations’, and ‘help’. Around (7, 0.5) we find a group of words including ‘days’, ‘weekend’, ‘planning’, ‘trip’, ‘going’, ‘camping’, and ‘going’. These groups of words likely coincide with posts asking for information and planning excursions.
 
  # Similarity Measures
