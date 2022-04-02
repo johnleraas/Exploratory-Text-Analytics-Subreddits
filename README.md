@@ -58,7 +58,6 @@ As observed above:
 
 Sentiment was explored using two tools and techniques, namely the NRC Word-Emotion Lexicon and Valence Aware Dictionary for sEntiment Reasoning (VADER). First, sentiment and emotion were explored with use of the NRC Word-Emotion Lexicon which provides lexicons for positive and negative sentiment as well as the following emotions: anger, anticipation, disgust, fear, joy, sadness, surprise, and trust. Select emotions with ‘negative’ connotations (anger, fear, disgust) and ‘positive’ connotations (joy, trust, anticipation) are presented below.
 
---- PICTURE NEG_
 <p align="center">
   <img height=50% width=50% src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/Neg_Emotion.png">
 </p>
@@ -66,14 +65,12 @@ Sentiment was explored using two tools and techniques, namely the NRC Word-Emoti
   <img height=50% width=50% src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/Pos_Emotion.png">
 </p>
 
-POS_PICTURE ---
 Interestingly, the subreddits most closely associated with anger/fear/disgust are generally characterized by ‘ProtectandServe’ (law enforcement personnel), ‘btc’ (bitcoin), and ‘FORTnITE’ (the video game). The subreddits most closely associated with joy/trust/anticipation are ‘beatles’ (the band), ‘TaylorSwift’ (the singer), and ‘FORTnITE’. Notably, ‘ProtectandServe’ also contains a significant proportion of trust associated words. 
 
 <p align="center">
   <img height=50% width=50% src="https://github.com/johnleraas/Exploratory-Text-Analytics-Subreddits/blob/main/Docs/Vader_Sentiment.png">
 </p>
 
----VaderSent_Subreddit.png----
 VADER applies a heuristic process to sentiment analysis and is applied at the sentence-level. In addition to applying a lexicon set of features, VADER also incorporates polarity and intensity and uses heuristics to identify relevant punctuation, emoticons, and other features (such as all caps).
 
 The subreddits with the highest degree of positive sentiment (as measured by ‘compound’) are: ‘flyfishing’, ‘Norway’, ‘camping’, ‘beatles’, and ‘gopro’. The subreddits ‘btc’, ‘soccer’, and ‘ProtectAndServe’ had the lowest, though still positive, compound sentiment values.
